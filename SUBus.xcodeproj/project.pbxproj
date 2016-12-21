@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E7EB9B51DE6223300C85226 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7EB9B01DE6223300C85226 /* Cell.swift */; };
+		4E7EB9B71DE6223300C85226 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7EB9B21DE6223300C85226 /* Item.swift */; };
+		4EDB17D61DEF3B1F00D85557 /* TabEastToCampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17D51DEF3B1F00D85557 /* TabEastToCampusViewController.swift */; };
+		4EDB17D81DEF3B5900D85557 /* TabJamesToCampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17D71DEF3B5900D85557 /* TabJamesToCampusViewController.swift */; };
+		4EDB17DA1DEF3B7400D85557 /* TabWestcottToCampusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17D91DEF3B7400D85557 /* TabWestcottToCampusViewController.swift */; };
+		4EDB17E71DEF47AB00D85557 /* EastCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E11DEF47AB00D85557 /* EastCampus.swift */; };
+		4EDB17E81DEF47AB00D85557 /* EastCampusToCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E21DEF47AB00D85557 /* EastCampusToCampus.swift */; };
+		4EDB17E91DEF47AB00D85557 /* James.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E31DEF47AB00D85557 /* James.swift */; };
+		4EDB17EA1DEF47AB00D85557 /* JamesToCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E41DEF47AB00D85557 /* JamesToCampus.swift */; };
+		4EDB17EB1DEF47AB00D85557 /* Westcott530.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E51DEF47AB00D85557 /* Westcott530.swift */; };
+		4EDB17EC1DEF47AB00D85557 /* Westcott530ToCampus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB17E61DEF47AB00D85557 /* Westcott530ToCampus.swift */; };
+		4EE1156A1DF08FF2008E70C2 /* WestcottToCampusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE115691DF08FF2008E70C2 /* WestcottToCampusTableViewController.swift */; };
+		4EE1156C1DF0A275008E70C2 /* JamesToCampusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE1156B1DF0A275008E70C2 /* JamesToCampusTableViewController.swift */; };
+		4EE1156E1DF0A540008E70C2 /* EastToCampusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE1156D1DF0A540008E70C2 /* EastToCampusTableViewController.swift */; };
 		4EED21831DE37F8100F3BAF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21821DE37F8100F3BAF7 /* AppDelegate.swift */; };
-		4EED21851DE37F8100F3BAF7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21841DE37F8100F3BAF7 /* FirstViewController.swift */; };
-		4EED21871DE37F8100F3BAF7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21861DE37F8100F3BAF7 /* SecondViewController.swift */; };
 		4EED218A1DE37F8100F3BAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EED21881DE37F8100F3BAF7 /* Main.storyboard */; };
 		4EED218C1DE37F8100F3BAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EED218B1DE37F8100F3BAF7 /* Assets.xcassets */; };
 		4EED218F1DE37F8100F3BAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EED218D1DE37F8100F3BAF7 /* LaunchScreen.storyboard */; };
 		4EED219A1DE37F8100F3BAF7 /* SUBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21991DE37F8100F3BAF7 /* SUBusTests.swift */; };
 		4EED21A51DE37F8100F3BAF7 /* SUBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21A41DE37F8100F3BAF7 /* SUBusUITests.swift */; };
+		4EED21B91DE380E400F3BAF7 /* EastCampusTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21B81DE380E400F3BAF7 /* EastCampusTabViewController.swift */; };
+		4EED21BB1DE3815100F3BAF7 /* JamesStreetTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21BA1DE3815100F3BAF7 /* JamesStreetTabViewController.swift */; };
+		4EED21BD1DE3824C00F3BAF7 /* WestcottCentroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21BC1DE3824C00F3BAF7 /* WestcottCentroViewController.swift */; };
+		4EED21BF1DE3857300F3BAF7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EED21BE1DE3857300F3BAF7 /* HomePageViewController.swift */; };
+		608E32621DF4E061006B9EBF /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E32611DF4E061006B9EBF /* Calender.swift */; };
+		608E32641DF4E309006B9EBF /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E32631DF4E309006B9EBF /* CalenderCell.swift */; };
+		608E32661DF4EBA6006B9EBF /* NewReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E32651DF4EBA6006B9EBF /* NewReminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +54,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E7EB9B01DE6223300C85226 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		4E7EB9B21DE6223300C85226 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4EDB17D51DEF3B1F00D85557 /* TabEastToCampusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabEastToCampusViewController.swift; sourceTree = "<group>"; };
+		4EDB17D71DEF3B5900D85557 /* TabJamesToCampusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabJamesToCampusViewController.swift; sourceTree = "<group>"; };
+		4EDB17D91DEF3B7400D85557 /* TabWestcottToCampusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabWestcottToCampusViewController.swift; sourceTree = "<group>"; };
+		4EDB17E11DEF47AB00D85557 /* EastCampus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastCampus.swift; sourceTree = "<group>"; };
+		4EDB17E21DEF47AB00D85557 /* EastCampusToCampus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastCampusToCampus.swift; sourceTree = "<group>"; };
+		4EDB17E31DEF47AB00D85557 /* James.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = James.swift; sourceTree = "<group>"; };
+		4EDB17E41DEF47AB00D85557 /* JamesToCampus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JamesToCampus.swift; sourceTree = "<group>"; };
+		4EDB17E51DEF47AB00D85557 /* Westcott530.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Westcott530.swift; sourceTree = "<group>"; };
+		4EDB17E61DEF47AB00D85557 /* Westcott530ToCampus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Westcott530ToCampus.swift; sourceTree = "<group>"; };
+		4EE115691DF08FF2008E70C2 /* WestcottToCampusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WestcottToCampusTableViewController.swift; sourceTree = "<group>"; };
+		4EE1156B1DF0A275008E70C2 /* JamesToCampusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JamesToCampusTableViewController.swift; sourceTree = "<group>"; };
+		4EE1156D1DF0A540008E70C2 /* EastToCampusTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EastToCampusTableViewController.swift; path = ../EastToCampusTableViewController.swift; sourceTree = "<group>"; };
 		4EED217F1DE37F8100F3BAF7 /* SUBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EED21821DE37F8100F3BAF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EED21841DE37F8100F3BAF7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		4EED21861DE37F8100F3BAF7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4EED21891DE37F8100F3BAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EED218B1DE37F8100F3BAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EED218E1DE37F8100F3BAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,13 @@
 		4EED21A01DE37F8100F3BAF7 /* SUBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EED21A41DE37F8100F3BAF7 /* SUBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUBusUITests.swift; sourceTree = "<group>"; };
 		4EED21A61DE37F8100F3BAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EED21B81DE380E400F3BAF7 /* EastCampusTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EastCampusTabViewController.swift; sourceTree = "<group>"; };
+		4EED21BA1DE3815100F3BAF7 /* JamesStreetTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JamesStreetTabViewController.swift; sourceTree = "<group>"; };
+		4EED21BC1DE3824C00F3BAF7 /* WestcottCentroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WestcottCentroViewController.swift; sourceTree = "<group>"; };
+		4EED21BE1DE3857300F3BAF7 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		608E32611DF4E061006B9EBF /* Calender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		608E32631DF4E309006B9EBF /* CalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		608E32651DF4EBA6006B9EBF /* NewReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewReminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +138,31 @@
 			isa = PBXGroup;
 			children = (
 				4EED21821DE37F8100F3BAF7 /* AppDelegate.swift */,
-				4EED21841DE37F8100F3BAF7 /* FirstViewController.swift */,
-				4EED21861DE37F8100F3BAF7 /* SecondViewController.swift */,
+				4EE1156D1DF0A540008E70C2 /* EastToCampusTableViewController.swift */,
 				4EED21881DE37F8100F3BAF7 /* Main.storyboard */,
+				4EDB17D51DEF3B1F00D85557 /* TabEastToCampusViewController.swift */,
+				4EDB17D71DEF3B5900D85557 /* TabJamesToCampusViewController.swift */,
+				4EDB17E21DEF47AB00D85557 /* EastCampusToCampus.swift */,
+				4EE1156B1DF0A275008E70C2 /* JamesToCampusTableViewController.swift */,
+				4EDB17E11DEF47AB00D85557 /* EastCampus.swift */,
+				4EDB17E31DEF47AB00D85557 /* James.swift */,
+				4EDB17E41DEF47AB00D85557 /* JamesToCampus.swift */,
+				4EDB17E51DEF47AB00D85557 /* Westcott530.swift */,
+				4EDB17E61DEF47AB00D85557 /* Westcott530ToCampus.swift */,
+				4EDB17D91DEF3B7400D85557 /* TabWestcottToCampusViewController.swift */,
+				4EE115691DF08FF2008E70C2 /* WestcottToCampusTableViewController.swift */,
+				4EED21BE1DE3857300F3BAF7 /* HomePageViewController.swift */,
 				4EED218B1DE37F8100F3BAF7 /* Assets.xcassets */,
+				4EED21B81DE380E400F3BAF7 /* EastCampusTabViewController.swift */,
+				4EED21BA1DE3815100F3BAF7 /* JamesStreetTabViewController.swift */,
+				4E7EB9B01DE6223300C85226 /* Cell.swift */,
+				4E7EB9B21DE6223300C85226 /* Item.swift */,
+				4EED21BC1DE3824C00F3BAF7 /* WestcottCentroViewController.swift */,
 				4EED218D1DE37F8100F3BAF7 /* LaunchScreen.storyboard */,
 				4EED21901DE37F8100F3BAF7 /* Info.plist */,
+				608E32611DF4E061006B9EBF /* Calender.swift */,
+				608E32631DF4E309006B9EBF /* CalenderCell.swift */,
+				608E32651DF4EBA6006B9EBF /* NewReminder.swift */,
 			);
 			path = SUBus;
 			sourceTree = "<group>";
@@ -259,9 +316,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EED21871DE37F8100F3BAF7 /* SecondViewController.swift in Sources */,
+				4EDB17E71DEF47AB00D85557 /* EastCampus.swift in Sources */,
+				4EDB17E91DEF47AB00D85557 /* James.swift in Sources */,
+				608E32661DF4EBA6006B9EBF /* NewReminder.swift in Sources */,
+				4EDB17EA1DEF47AB00D85557 /* JamesToCampus.swift in Sources */,
+				4EDB17DA1DEF3B7400D85557 /* TabWestcottToCampusViewController.swift in Sources */,
+				4EED21BD1DE3824C00F3BAF7 /* WestcottCentroViewController.swift in Sources */,
+				4EDB17EC1DEF47AB00D85557 /* Westcott530ToCampus.swift in Sources */,
+				4EE1156C1DF0A275008E70C2 /* JamesToCampusTableViewController.swift in Sources */,
+				4EDB17EB1DEF47AB00D85557 /* Westcott530.swift in Sources */,
+				4EED21BB1DE3815100F3BAF7 /* JamesStreetTabViewController.swift in Sources */,
+				4EED21B91DE380E400F3BAF7 /* EastCampusTabViewController.swift in Sources */,
+				608E32641DF4E309006B9EBF /* CalenderCell.swift in Sources */,
+				4EDB17E81DEF47AB00D85557 /* EastCampusToCampus.swift in Sources */,
+				4EDB17D61DEF3B1F00D85557 /* TabEastToCampusViewController.swift in Sources */,
+				4EE1156E1DF0A540008E70C2 /* EastToCampusTableViewController.swift in Sources */,
+				4E7EB9B71DE6223300C85226 /* Item.swift in Sources */,
+				4EED21BF1DE3857300F3BAF7 /* HomePageViewController.swift in Sources */,
+				4EDB17D81DEF3B5900D85557 /* TabJamesToCampusViewController.swift in Sources */,
 				4EED21831DE37F8100F3BAF7 /* AppDelegate.swift in Sources */,
-				4EED21851DE37F8100F3BAF7 /* FirstViewController.swift in Sources */,
+				4EE1156A1DF08FF2008E70C2 /* WestcottToCampusTableViewController.swift in Sources */,
+				4E7EB9B51DE6223300C85226 /* Cell.swift in Sources */,
+				608E32621DF4E061006B9EBF /* Calender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +564,7 @@
 				4EED21AB1DE37F8100F3BAF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EED21AC1DE37F8100F3BAF7 /* Build configuration list for PBXNativeTarget "SUBusTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +573,7 @@
 				4EED21AE1DE37F8100F3BAF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EED21AF1DE37F8100F3BAF7 /* Build configuration list for PBXNativeTarget "SUBusUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +582,7 @@
 				4EED21B11DE37F8100F3BAF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
